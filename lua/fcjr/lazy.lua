@@ -33,4 +33,4 @@ local plugins = {
         { "github/copilot.vim" },
 }
 
-require("lazy").setup(plugins, opts)
+require("lazy").setup(plugins, {})
