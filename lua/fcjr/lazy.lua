@@ -17,19 +17,20 @@ local plugins = {
                 tag = '0.1.5',
                 dependencies = { 'nvim-lua/plenary.nvim' }
         },
-        { "rose-pine/neovim", name = "rose-pine" },
-        { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" },
+        { "rose-pine/neovim",                 name = "rose-pine" },
+        { "nvim-treesitter/nvim-treesitter",  run = ":TSUpdate" },
         { "nvim-lua/plenary.nvim" },
         { "ThePrimeagen/harpoon" },
         { "mbbill/undotree" },
         { "tpope/vim-fugitive" },
-        {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
-        {'neovim/nvim-lspconfig'},
-        {'hrsh7th/cmp-nvim-lsp'},
-        {'hrsh7th/nvim-cmp'},
-        {'L3MON4D3/LuaSnip'},
+        { 'VonHeikemen/lsp-zero.nvim',        branch = 'v3.x' },
+        { 'neovim/nvim-lspconfig' },
+        { 'hrsh7th/cmp-nvim-lsp' },
+        { 'hrsh7th/nvim-cmp' },
+        { 'L3MON4D3/LuaSnip' },
         { "williamboman/mason.nvim" },
         { "williamboman/mason-lspconfig.nvim" },
+        { "github/copilot.vim" },
 }
 
 require("lazy").setup(plugins, opts)
