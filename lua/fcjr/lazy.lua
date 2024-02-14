@@ -31,6 +31,7 @@ local plugins = {
         { "williamboman/mason.nvim" },
         { "williamboman/mason-lspconfig.nvim" },
         { "github/copilot.vim" },
+        { "fatih/vim-go" },
 }
 
 require("lazy").setup(plugins, {})
