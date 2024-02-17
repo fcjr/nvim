@@ -17,10 +17,13 @@ local plugins = {
         tag = '0.1.5',
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
-    { "rose-pine/neovim",                 name = "rose-pine" },
-    { "nvim-treesitter/nvim-treesitter",  run = ":TSUpdate" },
-    { "nvim-lua/plenary.nvim" },
-    { "ThePrimeagen/harpoon" },
+    { "rose-pine/neovim",                name = "rose-pine" },
+    { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate" },
+    {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        dependencies = { "nvim-lua/plenary.nvim" }
+    },
     { "mbbill/undotree" },
     { "tpope/vim-fugitive" },
     { 'VonHeikemen/lsp-zero.nvim',        branch = 'v3.x' },
