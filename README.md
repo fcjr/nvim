@@ -1,9 +1,3 @@
 # nvim config
 
-requires the following:
-
-```sh
-brew installtmux
-brew install ripgrep
-cargo install tmux-sessionizer
-```
+THIS REPO IS ARCHIVED.  My current config is managed in my [dotfiles repo](https://github.com/fcjr/dotfiles).
